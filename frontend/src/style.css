@@ -81,6 +81,15 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.danger{background-color: #dc3545;}
+.danger:hover{background-color: #c82333;}
+.danger:active{background-color: #bd2130;}
+.danger:focus{background-color: #bd2130;}
+.danger:focus-visible{background-color: #bd2130;}
+.danger:focus-within{background-color: #bd2130;}
+.danger:focus-within:hover{background-color: #bd2130;}
+.danger:focus-within:active{background-color: #bd2130;}
+.danger:focus-within:focus{background-color: #bd2130;}
 
 @media (prefers-color-scheme: light) {
   :root {
